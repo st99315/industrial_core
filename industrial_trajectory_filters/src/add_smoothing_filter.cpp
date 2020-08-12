@@ -124,6 +124,7 @@ public:
     return result;
   };
   
+  virtual void initialize(const ros::NodeHandle& node_handle) {}
 
 private:
   ros::NodeHandle nh_;

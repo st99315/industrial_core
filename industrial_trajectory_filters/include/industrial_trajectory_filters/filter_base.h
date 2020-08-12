@@ -172,6 +172,8 @@ template<typename T>
     }
     ; // original FilterBase method
 
+  virtual void initialize(const ros::NodeHandle& node_handle) {}
+
   protected:
 
     /**
